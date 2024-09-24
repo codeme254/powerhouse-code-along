@@ -1,6 +1,8 @@
 import Title from "../Title/Title";
 import "./testimonies.css";
 import customer1 from "../../assets/customer-1.jpg";
+import Carousel from "react-elastic-carousel";
+import testimonies from "../../data/testimonies";
 
 function TestimonyCard({ customerAvatar, customerName, title, text }) {
   return (
@@ -21,12 +23,17 @@ function Testimonies() {
       <Title mainTitle="our customers love us" subtitle="social proof" />
 
       <div className="testimonies-container">
-        <TestimonyCard
-          customerAvatar={customer1}
-          customerName="john santos"
-          title="best legit tech products ever"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus soluta, nulla obcaecati doloremque dolores a porro error itaque, tempore, unde eveniet cumque dolorem pariatur sed sapiente velit molestiae maiores repellendus."
-        />
+        <Carousel itemsToShow={1} enableAutoPlay={true} autoPlaySpeed={5000}>
+          {testimonies.map((testimony, i) => (
+            <TestimonyCard
+              key={i}
+              customerAvatar={testimony.customerAvatar}
+              customerName={testimony.customerName}
+              title={testimony.title}
+              text={testimony.text}
+            />
+          ))}
+        </Carousel>
       </div>
     </section>
   );
