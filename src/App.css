@@ -24,4 +24,5 @@ body {
   background-color: var(--color-tertiary);
   color: var(--color-black);
   padding: 0 2rem;
+  margin-bottom: 3rem;
 }
