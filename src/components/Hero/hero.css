@@ -52,7 +52,7 @@
 
 .hero-img {
   width: 70rem;
-  box-shadow: 1rem 1rem 15rem var(--color-primary);
+  box-shadow: 1rem 1rem 0.15rem var(--color-primary);
   margin-top: 4rem;
   border-radius: 5px;
 }

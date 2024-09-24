@@ -1,0 +1,19 @@
+.title {
+  text-align: center;
+}
+
+.title__subtitle {
+  letter-spacing: 1.8px;
+  color: var(--color-primary);
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.title__main-title {
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  text-shadow: 0 0 2rem currentColor;
+}
