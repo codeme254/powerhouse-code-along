@@ -22,4 +22,6 @@ body {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
   background-color: var(--color-tertiary);
+  color: var(--color-black);
+  padding: 0 2rem;
 }

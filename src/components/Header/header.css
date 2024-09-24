@@ -1,0 +1,71 @@
+.header-social-contacts-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+  border-bottom: 1px solid var(--color-white);
+  padding-block: 0.5rem;
+}
+
+@media screen and (max-width: 56.25em) {
+  .header-social-contacts-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.header-social-contact {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-social-contact svg {
+  --size: 1.8rem;
+  width: var(--size);
+  height: var(--size);
+  fill: var(--color-primary-light);
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+@media screen and (max-width: 43.75em) {
+  .header-navigation {
+    flex-direction: column;
+  }
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 34.375em) {
+  .navigation-list {
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1rem;
+  }
+}
+
+.navigation-item {
+  transition: all 0.3s;
+  padding: 1rem;
+}
+
+.navigation-item:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
