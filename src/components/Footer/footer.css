@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--color-black);
+  padding: 3rem 1rem;
+}
+
+.footer-text {
+  color: var(--color-white);
+  text-align: center;
+}
+
+.footer-text a {
+  color: var(--color-white);
+  text-transform: capitalize;
+}
