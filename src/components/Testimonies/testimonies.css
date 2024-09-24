@@ -1,3 +1,18 @@
+.testimonies-section {
+  margin-top: 10rem;
+}
+
+.testimonies-container {
+  width: 60%;
+  margin: 4rem auto;
+}
+
+@media screen and (max-width: 50em) {
+  .testimonies-container {
+    width: 100%;
+  }
+}
+
 .testimony-card {
   box-shadow: 0 0 3px var(--color-primary);
   width: 50rem;

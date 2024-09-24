@@ -19,7 +19,7 @@ function TestimonyCard({ customerAvatar, customerName, title, text }) {
 
 function Testimonies() {
   return (
-    <section>
+    <section className="testimonies-section">
       <Title mainTitle="our customers love us" subtitle="social proof" />
 
       <div className="testimonies-container">
