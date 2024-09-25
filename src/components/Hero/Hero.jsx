@@ -1,5 +1,6 @@
 import heroImage from "../../assets/hero-img.jpg";
 import "./hero.css";
+import { Link } from "react-router-dom";
 function Hero() {
   return (
     <section className="hero-section">
@@ -11,9 +12,9 @@ function Hero() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
           expedita maxime hic, velit officia minus.
         </p>
-        <a href="#" className="hero-more-catalogue-link">
+        <Link to="/products" className="hero-more-catalogue-link">
           view catalogue
-        </a>
+        </Link>
       </div>
       <img
         src={heroImage}

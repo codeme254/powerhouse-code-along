@@ -1,0 +1,11 @@
+.products-page {
+  margin-top: 4rem;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 4rem;
+}
