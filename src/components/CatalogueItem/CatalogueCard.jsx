@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function CatalogueCard({ thumbnail, price, title, description }) {
   return (
     <div className="catalogue-card">
@@ -8,9 +9,9 @@ function CatalogueCard({ thumbnail, price, title, description }) {
       <div className="catalogue-card-body">
         <h3 className="catalogue-card-title">{title}</h3>
         <p className="catalogue-card-description">{description}</p>
-        <a href="#" className="catalogue-card-cta">
+        <Link to="/order" className="catalogue-card-cta">
           place order
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import "./catalogue.css";
 import Title from "../Title/Title";
 import products from "../../data/products";
 import CatalogueCard from "../CatalogueItem/CatalogueCard";
+import { Link } from "react-router-dom";
 
 function Catalogue() {
   return (
@@ -26,9 +27,9 @@ function Catalogue() {
         )}
       </div>
 
-      <a href="#" className="catalogue-more-btn">
+      <Link to="/products" className="catalogue-more-btn">
         more items
-      </a>
+      </Link>
     </section>
   );
 }
