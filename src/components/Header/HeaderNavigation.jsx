@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function HeaderNavigation() {
   return (
     <div className="header-navigation">
@@ -5,24 +6,24 @@ function HeaderNavigation() {
       <nav>
         <ol className="navigation-list">
           <li className="navigation-item">
-            <a href="#" className="navigation-link">
+            <Link to="/" className="navigation-link">
               Home
-            </a>
+            </Link>
           </li>
           <li className="navigation-item">
-            <a href="#" className="navigation-link">
+            <Link to="/about" className="navigation-link">
               about
-            </a>
+            </Link>
           </li>
           <li className="navigation-item">
-            <a href="#" className="navigation-link">
+            <Link to="#" className="navigation-link">
               products
-            </a>
+            </Link>
           </li>
           <li className="navigation-item">
-            <a href="#" className="navigation-link">
+            <Link to="#" className="navigation-link">
               staff
-            </a>
+            </Link>
           </li>
         </ol>
       </nav>

@@ -7,3 +7,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>,
 );
+
+// import { FaClockRotateLeft } from "react-icons/fa6";
+// import { FaLaptop } from "react-icons/fa";
+// import { MdOutlineContactSupport } from "react-icons/md";
+// import { FaLocationDot } from "react-icons/fa6";
+// import { FaPeopleGroup } from "react-icons/fa6";
+// import { FaList } from "react-icons/fa6";
