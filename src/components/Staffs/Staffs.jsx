@@ -5,6 +5,8 @@ import { MdFacebook } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 
+import staffInformation from "../../data/staffInformation";
+
 function StaffCards({ staffImage, staffName, staffTitle, staffDescription }) {
   return (
     <div className="staff-card">
@@ -31,10 +33,10 @@ function Staffs() {
     <div className="container">
       <Title
         mainTitle="Our Staff"
-        subtitle="A team of experienced professionals driving innovation and success company."
+        subtitle="A team of experienced professionals driving innovation and success."
       />
       <div className="staff-container">
-        {/* {staffInformation.map((staff, index) => (
+        {staffInformation.map((staff, index) => (
                   <StaffCards
                       key={index}
                       staffImage={staff.staffImage}
@@ -42,7 +44,7 @@ function Staffs() {
                       staffTitle={staff.staffTitle}
                       staffDescription={staff.description}
                   />
-              ))} */}
+              ))}
       </div>
     </div>
   );
