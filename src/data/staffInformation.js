@@ -4,6 +4,8 @@ import amelia from "../assets/staffImages/amelia.jpg";
 import charlotte from "../assets/staffImages/charlotte.jpg";
 import grace from "../assets/staffImages/grace.jpg";
 import kenneth from "../assets/staffImages/kenneth.jpg";
+import mugure from "../assets/staffImages/mugure.jpg";
+import kiama from "../assets/staffImages/kiama.jpg";
 
 const staffInformation = [
   {
@@ -46,6 +48,22 @@ const staffInformation = [
     staffImage: kenneth,
     staffName: "Kenneth Karani",
     staffTitle: "Chief Development Officer",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.",
+  },
+
+  {
+    staffImage: mugure,
+    staffName: "miriam mugure",
+    staffTitle: "chairlady of the board",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.",
+  },
+
+  {
+    staffImage: kiama,
+    staffName: "Kiama Wilfred",
+    staffTitle: "board of member",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, ducimus.",
   },
