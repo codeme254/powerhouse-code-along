@@ -1,0 +1,129 @@
+.staff-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 5rem;
+  justify-content: center;
+}
+
+.staff-card {
+  display: flex;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50rem;
+}
+
+.staff-image img {
+  --size: 10rem;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 65%;
+  margin: 3.5rem 2rem;
+  /* margin: 2rem; */
+}
+
+.staff-info {
+  /* border: 3px solid yellowgreen;  */
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 0.5rem;
+  flex: 1;
+}
+
+.title {
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  font-weight: bolder;
+}
+
+.name {
+  font-size: 2rem;
+  /* font-weight: 600; */
+  margin-top: 1rem;
+  color: var(--color-primary);
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+
+.description {
+  font-weight: 400;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.social-icon {
+  --size: 3rem;
+  color: var(--color-white);
+  background-color: var(--color-primary-light);
+  width: var(--size);
+  height: var(--size);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.social-icon:hover {
+  color: var(--color-white);
+  font-weight: bold;
+  background-color: var(--color-primary);
+}
+
+@media screen and (max-width: 72.5em) {
+  .staff-card {
+    width: 45rem;
+  }
+}
+
+@media screen and (max-width: 33.125em) {
+  /* .staff-card {
+        width: 40rem;
+    } */
+
+  .staff-image img {
+    --size: 8rem;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 65%;
+  }
+
+  .staff-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .staff-info {
+    padding-left: 0.1rem;
+  }
+  .title {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .name {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .description {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding-right: 0.5rem;
+  }
+
+  .socials {
+    margin: 1rem;
+    gap: 1.5rem;
+  }
+  .social-icon {
+    --size: 2.6rem;
+    width: var(--size);
+    height: var(--size);
+    padding: 2px;
+  }
+}
