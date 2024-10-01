@@ -37,14 +37,14 @@ function Staffs() {
       />
       <div className="staff-container">
         {staffInformation.map((staff, index) => (
-                  <StaffCards
-                      key={index}
-                      staffImage={staff.staffImage}
-                      staffName={staff.staffName}
-                      staffTitle={staff.staffTitle}
-                      staffDescription={staff.description}
-                  />
-              ))}
+          <StaffCards
+            key={index}
+            staffImage={staff.staffImage}
+            staffName={staff.staffName}
+            staffTitle={staff.staffTitle}
+            staffDescription={staff.description}
+          />
+        ))}
       </div>
     </div>
   );

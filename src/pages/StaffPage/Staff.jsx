@@ -3,9 +3,9 @@ import Staffs from "../../components/Staffs/Staffs";
 function Staff() {
   return (
     <div>
-        <Staffs/>
+      <Staffs />
     </div>
-  )
+  );
 }
 
-export default Staff
+export default Staff;
