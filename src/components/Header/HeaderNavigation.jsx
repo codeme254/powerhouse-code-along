@@ -21,7 +21,7 @@ function HeaderNavigation() {
             </Link>
           </li>
           <li className="navigation-item">
-            <Link to="#" className="navigation-link">
+            <Link to="/staff" className="navigation-link">
               staff
             </Link>
           </li>
